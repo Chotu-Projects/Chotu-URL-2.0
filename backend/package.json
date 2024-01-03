@@ -1,0 +1,32 @@
+{
+  "name": "chotu-url-backend",
+  "version": "1.0.0",
+  "description": "Url shortner",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx nodemon",
+    "build": "rimraf ./build && tsc",
+    "start": "npm run build && node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chotu-Projects/Chotu-URL-2.0.git"
+  },
+  "keywords": [
+    "url-shortner",
+    "typescript"
+  ],
+  "author": "Punit-Choudhary",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chotu-Projects/Chotu-URL-2.0/issues"
+  },
+  "homepage": "https://github.com/Chotu-Projects/Chotu-URL-2.0#readme",
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "nodemon": "^3.0.2",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
